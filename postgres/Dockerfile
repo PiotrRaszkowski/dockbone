@@ -1,0 +1,6 @@
+FROM postgres:latest
+MAINTAINER Piotr Raszkowski, raszkowski.pl
+ENV POSTGRES_USER root
+ENV POSTGRES_PASSWORD 1234
+ENV PGDATA /data
+EXPOSE 5432
